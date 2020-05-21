@@ -524,7 +524,7 @@ class Music(commands.Cog):
 				)
 		await ctx.send( embed=embed, tts=False)
 
-bot = commands.Bot('', help_command = None, description='해성뮤직봇')
+bot = commands.Bot('', help_command = None, description='뮤직봇')
 bot.add_cog(Music(bot))
 
 @bot.event
